@@ -55,7 +55,7 @@ class ListaEnlazada {
                     actual.siguiente = siguiente.siguiente;
                     siguiente.siguiente = actual;
 
-                    // Mover punteros
+                  
                     anterior = siguiente;
                     siguiente = actual.siguiente;
                 } else {
